@@ -1,0 +1,136 @@
+{
+  "schema_version": "2.0",
+  "case_information": {
+    "case_id": null,
+    "date": null,
+    "or_room_number": null,
+    "patient_in_time": null,
+    "patient_out_time": null,
+    "anesthesia_induction_time": null,
+    "incision_time": null,
+    "surgery_end_time": null,
+    "dressing_time": null
+  },
+  "patient_information": {
+    "patient_id": null,
+    "patient_name": null,
+    "known_allergies": [],
+    "allergy_status_confirmed": null,
+    "isolation_required": null,
+    "fall_risk": null
+  },
+  "surgical_team": {
+    "surgeon_1": null,
+    "surgeon_2": null,
+    "assistant_1": null,
+    "assistant_2": null,
+    "anesthesiologist": null,
+    "anesthesia_technician": null,
+    "scrub_nurse": null,
+    "relief_scrub_nurse": null,
+    "circulating_nurse": null,
+    "relief_circulating_nurse": null
+  },
+  "diagnosis_and_procedure": {
+    "preoperative_diagnosis": null,
+    "postoperative_diagnosis": null,
+    "operation_code": null,
+    "procedure_name": null,
+    "procedure_site": null,
+    "laterality": null,
+    "procedure_description": null,
+    "operative_findings": []
+  },
+    "anesthesia": {
+    "types": []
+
+  },
+  "patient_position": {
+    "position": null,
+    "other_position": null
+  },
+  "irrigation": {
+    "used": null,
+    "solutions": []
+  },
+    "drains_tubes_and_packing": {
+    "used": null,
+    "items": []
+  },
+  "specimens_and_laboratory": {
+    "collected":null,
+    "specimens": [],
+    "requested_tests": [],
+    "sent_to_external_lab": null,
+    "external_lab_name": null,
+    "other_notes": []
+  },
+    "medications": {
+    "prophylactic_antibiotic_given": null,
+    "medications": []
+  },
+  "implants": {
+    "used": null,
+    "items": []
+  },
+  "fluids_and_blood": {
+    "total_fluids_ml": null,
+    "estimated_blood_loss_ml": null,
+    "blood_transfusion_given": null,
+    "blood_transfused_ml": null
+  },
+    "counts": {
+    "initial_count_waived": null,
+    "retained_sponge_case": null,
+    "count_stages": [],
+    "final_count_correct": null,
+    "discrepancy": null,
+    "actions_if_incorrect": [],
+    "instrument_sets": []
+  },
+  "equipment": {
+    "tourniquet": {
+      "used": null,
+      "pressure_mmhg": null,
+      "duration_minutes": null,
+      "serial_number": null
+    },
+    "esu": {
+      "used": null,
+      "serial_number": null
+    }
+  },
+    "wound_classification": null,
+  "complications": [],
+  "intraoperative_events": {
+    "unexpected_events": []
+  },
+  "patient_outcome": {
+    "destination": null,
+    "other_destination": null,
+    "condition": null,
+    "intubated": null,
+    "extubated": null
+  },
+    "administrative": {
+    "physician_name": null,
+    "recovery_nurse_name": null,
+    "floor_nurse_name": null,
+    "signatures": {
+      "physician": null,
+      "scrub_nurse": null,
+      "circulating_nurse": null,
+      "recovery_nurse": null,
+      "floor_nurse": null
+    }
+  },
+  "processing_metadata": {
+    "source_audio": null,
+    "raw_transcript": null,
+    "asr_model": null,
+    "semantic_model": null,
+    "processed_at": null,
+    "report_generated": false
+  }
+
+}

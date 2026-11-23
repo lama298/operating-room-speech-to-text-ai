@@ -1,0 +1,56 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editor settings
+.vscode/
+.idea/
+
+# Conda / virtual environments
+.venv/
+venv/
+env/
+
+# Audio recordings
+audio/
+*.m4a
+*.wav
+*.mp3
+*.flac
+
+# Generated evaluation artifacts
+outputs/
+
+# Generated reports
+reports/
+
+# Model/cache files
+.cache/
+models/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Environment variables and credentials
+.env
+.env.*
+*.key
+credentials.json
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+# Private thesis research data
+/dataset/
+/audio/
+/outputs/
+/reports/
+/source_hashes.json
+
+# Private clinical evaluation records
+/config/module7/evaluation_cases.csv
+/config/module7/final_test_eval.csv
+/config/module7/semantic_validation*.json

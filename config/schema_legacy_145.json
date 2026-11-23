@@ -1,0 +1,211 @@
+{
+  "case_information": {
+    "case_id": null,
+    "date": null,
+    "or_room_number": null,
+    "patient_in_time": null,
+    "patient_out_time": null,
+    "anesthesia_induction_time": null,
+    "incision_time": null,
+    "surgery_end_time": null,
+    "dressing_time": null
+  },
+
+  "patient_information": {
+    "patient_id": null,
+    "patient_name": null,
+    "known_allergies": [],
+    "allergy_status_confirmed": null,
+    "isolation_required": null,
+    "fall_risk": null
+  },
+
+  "surgical_team": {
+    "surgeon_1": null,
+    "surgeon_2": null,
+    "assistant_1": null,
+    "assistant_2": null,
+    "anesthesiologist": null,
+    "anesthesia_technician": null,
+    "scrub_nurse": null,
+    "relief_scrub_nurse": null,
+    "circulating_nurse": null,
+    "relief_circulating_nurse": null
+  },
+
+  "diagnosis_and_procedure": {
+    "preoperative_diagnosis": null,
+    "postoperative_diagnosis": null,
+    "operation_code": null,
+    "procedure_name": null,
+    "surgical_site": null,
+    "incision_entrance": null,
+    "procedure_description": null,
+    "operative_findings": []
+  },
+
+  "anesthesia": {
+    "anesthesia_type": null,
+    "general": false,
+    "spinal": false,
+    "epidural": false,
+    "local": false,
+    "regional": false,
+    "iv_sedation": false,
+    "monitored_anesthesia": false,
+    "airway_status": null,
+    "anesthia_intubated": null,
+    "anesthia_extubated": null
+  },
+
+  "patient_position": {
+    "position": null,
+    "supine": false,
+    "prone": false,
+    "lithotomy": false,
+    "fracture_position": false,
+    "lateral": false,
+    "other_position": null
+  },
+
+  "irrigation": {
+    "irrigation_used": null,
+    "irrigation_type": null,
+    "amount_ml": null
+  },
+
+  "drains_tubes_and_packing": {
+    "foley_catheter": false,
+    "hemovac": false,
+    "penrose": false,
+    "pezzer": false,
+    "ng_tube": false,
+    "nephrostomy": false,
+    "urostomy_or_cystofix": false,
+    "cystostomy": false,
+    "colostomy": false,
+    "ileostomy": false,
+    "chest_tube": false,
+    "corrugated_drain": false,
+    "central_venous_line": false,
+    "other_drains_tubes_or_packing": []
+  },
+
+  "specimens_and_laboratory": {
+    "specimens": [],
+    "pathology_requested": null,
+    "culture_requested": null,
+    "cytology_requested": null,
+    "frozen_section_requested": null,
+    "csf_specimen": null,
+    "stone_analysis_requested": null,
+    "muscle_biopsy": null,
+    "testicular_biopsy": null,
+    "bone_marrow_specimen": null,
+    "foreign_body": null,
+    "sent_to_external_lab": null,
+    "external_lab_name": null,
+    "other_notes": []
+  },
+
+  "medications": {
+    "prophylactic_antibiotic_given": null,
+    "drug_name": null,
+    "drug_dose": null,
+    "additional_medications": []
+  },
+
+  "implants": {
+    "implant_used": null,
+    "implant_type": null,
+    "implant_registry_number": null
+  },
+
+  "fluids_and_blood": {
+    "total_fluids_ml": null,
+    "estimated_blood_loss_ml": null,
+    "blood_transfused_ml": null
+  },
+
+  "intraoperative_parameters": {
+    "temperature_celsius": null
+  },
+
+  "counts": {
+    "initial_count_waived": null,
+    "retained_sponge_case": null,
+    "first_count_status": null,
+    "second_count_status": null,
+    "final_count_correct": null,
+    "count_discrepancy": null,
+    "action_if_incorrect": {
+      "head_nurse_informed": null,
+      "xray_taken": null,
+      "incident_report_completed": null
+    },
+    "counted_items": {
+      "xray_gauze": null,
+      "gauze": null,
+      "abdominal_pads": null,
+      "peanuts": null,
+      "cottonoids": null,
+      "blades": null,
+      "needles": null,
+      "umbilical_tape": null,
+      "penrose": null,
+      "raney_clips": null,
+      "other_counted_items": {}
+    },
+    "instrument_sets": []
+  },
+
+  "tourniquet": {
+    "tourniquet_used": null,
+    "pressure_mmhg": null,
+    "duration_minutes": null,
+    "serial_number": null
+  },
+
+  "wound_classification": {
+    "classification": null,
+    "clean": false,
+    "clean_contaminated": false,
+    "contaminated": false,
+    "infected_or_dirty": false
+  },
+
+  "complications": [],
+
+  "intraoperative_events": {
+    "unexpected_events": []
+},
+
+  "patient_outcome": {
+    "destination": null,
+    "pacu": false,
+    "floor": false,
+    "icu": false,
+    "ccu": false,
+    "other_destination": null,
+    "condition": null,
+    "stable": false,
+    "fair": false,
+    "outcome_intubated": false,
+    "outcome_extubated": false
+  },
+
+  "completion": {
+    "procedure_completed": null,
+    "recovery_team_notified": null,
+    "final_report_generated": null
+  },
+
+  "administrative": {
+    "physician_name": null,
+    "physician_signature": null,
+    "scrub_nurse_signature": null,
+    "circulating_nurse_signature": null,
+    "recovery_nurse_name": null,
+    "recovery_nurse_signature": null
+  }
+}

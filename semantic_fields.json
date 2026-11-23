@@ -1,0 +1,114 @@
+
+[
+  {
+    "field": "estimated_blood_loss_ml",
+    "description": "The estimated volume of blood lost by the patient during the surgical procedure, expressed in milliliters.",
+    "examples": [
+      "Estimated blood loss is 120 milliliters.",
+      "The patient lost approximately 120 ml of blood.",
+      "Blood loss during the procedure was around 120 cc."
+    ]
+  },
+  {
+    "field": "temperature_celsius",
+    "description": "The patient's body temperature measured during the surgical procedure, expressed in degrees Celsius.",
+    "examples": [
+      "The patient's temperature is 37 degrees Celsius.",
+      "Body temperature was measured at 36.8 degrees.",
+      "The current temperature is 37.2 Celsius."
+    ]
+  },
+  {
+    "field": "allergy_status_confirmed",
+    "description": "Indicates whether the patient's allergy status was explicitly checked and confirmed before or during the surgical procedure.",
+    "examples": [
+      "The patient's allergy status has been confirmed.",
+      "Allergies were checked and confirmed.",
+      "Allergy verification is complete."
+    ]
+  },
+  {
+    "field": "known_allergies",
+    "description": "The substances, medications, foods, or materials to which the patient has a known allergy.",
+    "examples": [
+      "The patient is allergic to penicillin.",
+      "Known allergy is latex.",
+      "The patient has no known allergies."
+    ]
+  },
+  {
+    "field": "incision_time",
+    "description": "The recorded time at which the first surgical incision was made.",
+    "examples": [
+      "The incision was made at 9:15 AM.",
+      "Surgery incision began at fourteen twenty.",
+      "The first cut was performed at 10:30."
+    ]
+  },
+  {
+  "field": "surgeon_1",
+  "description": "The primary surgeon responsible for performing the procedure.",
+  "examples": [
+    "The primary surgeon is Dr. Rami Khalil.",
+    "Dr. Nour Haddad is performing the operation.",
+    "The procedure will be led by surgeon Dr. Samir Ali."
+  ]
+},
+  {
+    "field": "anesthesiologist",
+    "description": "The name of the anesthesiologist responsible for administering and monitoring anesthesia during the surgical procedure.",
+    "examples": [
+      "The anesthesiologist is Dr. Karim Haddad.",
+      "Dr. Haddad is managing the patient's anesthesia.",
+      "Anesthesia will be administered by Dr. Karim Haddad."
+    ]
+  },
+  {
+    "field": "anesthesia_type",
+    "description": "The type or technique of anesthesia administered to the patient for the surgical procedure.",
+    "examples": [
+      "The patient will receive general anesthesia.",
+      "Spinal anesthesia was administered.",
+      "The procedure is being performed under local anesthesia."
+    ]
+  },
+  {
+  "field": "patient_name",
+  "description": "The full name of the patient undergoing the procedure.",
+  "examples": [
+    "The patient's name is Sarah Khalil.",
+    "The patient is named John Smith.",
+    "Patient identity was confirmed as Maya Haddad."
+  ]
+},
+  {
+    "field": "or_room_number",
+    "description": "The identifier or number of the operating room where the surgical procedure takes place.",
+    "examples": [
+      "The operation is taking place in operating room three.",
+      "The assigned OR room is number seven.",
+      "The patient is in OR twelve."
+    ]
+  },
+  {
+    "field": "case_id",
+    "description": "The unique identifier assigned to a surgical case for documentation and tracking.",
+    "examples": [
+      "The case ID is OR-2026-015.",
+      "Record this procedure under case number 4521.",
+      "The surgical case identifier is C-108."
+    ]
+  },
+  {
+    "field": "unexpected_events",
+    "description": "An unplanned or unusual clinical event that occurs during the surgical procedure and does not correspond to another configured field.",
+    "examples": [
+      "The patient developed an unexpected skin reaction.",
+      "There was a sudden equipment malfunction during the procedure.",
+      "An unplanned delay occurred because additional imaging was required.",
+      "The patient experienced an unexpected physiological complication during surgery, including a sudden decrease in oxygen saturation.",
+      "The procedure was completed without any unplanned complications or unusual events.",
+      "No intraoperative complications or unforeseen events were reported."
+    ]
+  }
+]

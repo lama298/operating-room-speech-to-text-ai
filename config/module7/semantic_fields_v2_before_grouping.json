@@ -1,0 +1,686 @@
+
+[
+{
+  "field": "procedure_site",
+  "description": "The anatomical location on the patient's body where the surgical procedure is performed.",
+  "examples": [
+    "The surgical site is the lower right abdomen.",
+    "The procedure site is the left knee.",
+    "The operation will be performed on the right shoulder."
+  ]
+},
+{
+  "field": "laterality",
+  "description": "The side or bilateral status of the anatomical site involved in the procedure.",
+  "examples": [
+    "The operation is on the left side.",
+    "The procedure is bilateral.",
+    "This is a right-sided surgical procedure."
+  ]
+},
+{
+  "field": "procedure_description",
+  "description": "A narrative description of the surgical actions and techniques performed during the operation.",
+  "examples": [
+    "The procedure involved a laparoscopic incision and removal of the appendix.",
+    "The operation was performed through a lower abdominal incision.",
+    "The surgeon opened the area, completed the repair, and closed the wound."
+  ]
+},
+{
+  "field": "operative_findings",
+  "description": "The clinical observations and findings identified by the surgical team during the operation.",
+  "examples": [
+    "The operative findings showed an inflamed appendix without perforation.",
+    "Surgical findings included a small amount of clear fluid.",
+    "The procedure revealed no evidence of tissue damage."
+  ]
+},
+
+{
+    "field": "estimated_blood_loss_ml",
+    "description": "The estimated volume of blood lost by the patient during the surgical procedure, expressed in milliliters.",
+    "examples": [
+      "Estimated blood loss is 120 milliliters.",
+      "The patient lost approximately 120 ml of blood.",
+      "Blood loss during the procedure was around 120 cc."
+    ]
+  },
+  {
+    "field": "allergy_status_confirmed",
+    "description": "Indicates whether the patient's allergy status was explicitly checked and confirmed before or during the surgical procedure.",
+    "examples": [
+      "The patient's allergy status has been confirmed.",
+      "Allergies were checked and confirmed.",
+      "Allergy verification is complete."
+    ]
+  },
+  {
+    "field": "known_allergies",
+    "description": "The substances, medications, foods, or materials to which the patient has a known allergy.",
+    "examples": [
+      "The patient is allergic to penicillin.",
+      "Known allergy is latex.",
+      "The patient has no known allergies."
+    ]
+  },
+  {
+    "field": "incision_time",
+    "description": "The recorded time at which the first surgical incision was made.",
+    "examples": [
+      "The incision was made at 9:15 AM.",
+      "Surgery incision began at fourteen twenty.",
+      "The first cut was performed at 10:30."
+    ]
+  },
+  {
+    "field": "surgeon_1",
+    "description": "The primary surgeon responsible for performing the procedure.",
+    "examples": [
+      "The primary surgeon is Dr. Rami Khalil.",
+      "Dr. Nour Haddad is performing the operation.",
+      "The procedure will be led by surgeon Dr. Samir Ali."
+    ]
+  },
+  {
+    "field": "anesthesiologist",
+    "description": "The name of the anesthesiologist responsible for administering and monitoring anesthesia during the surgical procedure.",
+    "examples": [
+      "The anesthesiologist is Dr. Karim Haddad.",
+      "Dr. Haddad is managing the patient's anesthesia.",
+      "Anesthesia will be administered by Dr. Karim Haddad."
+    ]
+  },
+  {
+    "field": "anesthesia_type",
+    "description": "The type or technique of anesthesia administered to the patient for the surgical procedure.",
+    "examples": [
+      "The patient will receive general anesthesia.",
+      "Spinal anesthesia was administered.",
+      "The procedure is being performed under local anesthesia."
+    ]
+  },
+  {
+    "field": "patient_name",
+    "description": "The full name of the patient undergoing the procedure.",
+    "examples": [
+      "The patient's name is Sarah Khalil.",
+      "The patient is named John Smith.",
+      "Patient identity was confirmed as Maya Haddad."
+    ]
+  },
+  {
+    "field": "or_room_number",
+    "description": "The identifier or number of the operating room where the surgical procedure takes place.",
+    "examples": [
+      "The operation is taking place in operating room three.",
+      "The assigned OR room is number seven.",
+      "The patient is in OR twelve."
+    ]
+  },
+  {
+    "field": "case_id",
+    "description": "The unique identifier assigned to a surgical case for documentation and tracking.",
+    "examples": [
+      "The case ID is OR-2026-015.",
+      "Record this procedure under case number 4521.",
+      "The surgical case identifier is C-108."
+    ]
+  },
+  {
+    "field": "unexpected_event",
+    "description": "An unplanned or unusual clinical event that occurs during the surgical procedure and does not correspond to another configured field.",
+    "examples": [
+      "The patient developed an unexpected skin reaction.",
+      "There was a sudden equipment malfunction during the procedure.",
+      "An unplanned delay occurred because additional imaging was required.",
+      "The patient experienced an unexpected physiological complication during surgery, including a sudden decrease in oxygen saturation.",
+      "The procedure was completed without any unplanned complications or unusual events.",
+      "No intraoperative complications or unforeseen events were reported."
+    ]
+  },
+  {
+    "field": "date",
+    "description": "The calendar date on which the surgical procedure takes place.",
+    "examples": [
+      "The surgery date is August fifteenth, 2026.",
+      "Record the operation date as August 15.",
+      "Today's procedure date is the fifteenth of August."
+    ]
+  },
+  {
+    "field": "patient_in_time",
+    "description": "The recorded time at which the patient enters the operating room.",
+    "examples": [
+      "The patient entered the operating room at 8:30 AM.",
+      "Patient in time was eight thirty.",
+      "The patient arrived in the OR at 9:10."
+    ]
+  },
+  {
+    "field": "patient_out_time",
+    "description": "The recorded time at which the patient leaves the operating room.",
+    "examples": [
+      "The patient left the operating room at 11:25 AM.",
+      "Patient out time was eleven twenty-five.",
+      "The patient departed from the OR at 12:10."
+    ]
+  },
+  {
+    "field": "anesthesia_induction_time",
+    "description": "The recorded time at which anesthesia induction begins.",
+    "examples": [
+      "Anesthesia induction started at 8:45 AM.",
+      "The induction time was eight forty-five.",
+      "Anesthesia was initiated at 9:05."
+    ]
+  },
+  {
+    "field": "surgery_end_time",
+    "description": "The recorded time at which the surgical procedure ends.",
+    "examples": [
+      "The surgery ended at 11:05 AM.",
+      "The procedure completion time was eleven oh five.",
+      "The operation was completed at 12:20."
+    ]
+  },
+  {
+    "field": "dressing_time",
+    "description": "The recorded time at which the surgical dressing is applied.",
+    "examples": [
+      "The dressing was applied at 11:15 AM.",
+      "The dressing time was eleven fifteen.",
+      "Wound dressing was completed at 12:30."
+    ]
+  },
+  {
+    "field": "patient_id",
+    "description": "The unique identifier assigned to the patient in the clinical record.",
+    "examples": [
+      "The patient ID is P-1042.",
+      "Record the medical record number as 55821.",
+      "The patient's identification number is MRN 7305."
+    ]
+  },
+  {
+    "field": "isolation_required",
+    "description": "Indicates whether the patient requires clinical isolation precautions.",
+    "examples": [
+      "The patient requires isolation precautions.",
+      "Isolation is required for this patient.",
+      "No isolation precautions are needed."
+    ]
+  },
+  {
+    "field": "fall_risk",
+    "description": "Indicates whether the patient has been identified as being at risk of falling.",
+    "examples": [
+      "The patient is considered a fall risk.",
+      "Risk of falling has been identified.",
+      "The patient is not at risk of falling."
+    ]
+  },
+  {
+    "field": "surgeon_2",
+    "description": "The second surgeon participating in the surgical procedure.",
+    "examples": [
+      "The second surgeon is Dr. Maya Haddad.",
+      "Dr. Rami Saleh is participating as surgeon two.",
+      "The additional surgeon is Dr. Karim Nasser."
+    ]
+  },
+  {
+    "field": "assistant_1",
+    "description": "The first surgical assistant participating in the procedure.",
+    "examples": [
+      "The first assistant is Dr. Nour Khalil.",
+      "Dr. Maya Nasser is serving as assistant one.",
+      "The primary surgical assistant is Dr. Samir Haddad."
+    ]
+  },
+  {
+    "field": "assistant_2",
+    "description": "The second surgical assistant participating in the procedure.",
+    "examples": [
+      "The second assistant is Dr. Rami Nasser.",
+      "Dr. Leila Khalil is serving as assistant two.",
+      "The additional surgical assistant is Dr. Sami Haddad."
+    ]
+  },
+  {
+    "field": "anesthesia_technician",
+    "description": "The anesthesia technician assisting with anesthesia equipment and preparation during the procedure.",
+    "examples": [
+      "The anesthesia technician is Ahmad Khalil.",
+      "Maya Nasser is assigned as the anesthesia tech.",
+      "The technician assisting the anesthesia team is Rami Saleh."
+    ]
+  },
+  {
+    "field": "scrub_nurse",
+    "description": "The scrub nurse responsible for maintaining the sterile field and assisting with surgical instruments.",
+    "examples": [
+      "The scrub nurse is Sara Haddad.",
+      "Nour Khalil is assigned as the scrub nurse.",
+      "The nurse managing the sterile instruments is Maya Saleh."
+    ]
+  },
+  {
+    "field": "relief_scrub_nurse",
+    "description": "The nurse who replaces or relieves the original scrub nurse during the procedure.",
+    "examples": [
+      "The relief scrub nurse is Leila Nasser.",
+      "Maya Haddad replaced the original scrub nurse.",
+      "The replacement scrub nurse is Nour Saleh."
+    ]
+  },
+  {
+    "field": "circulating_nurse",
+    "description": "The circulating nurse responsible for non-sterile operating-room coordination and documentation.",
+    "examples": [
+      "The circulating nurse is Rami Khalil.",
+      "Sara Nasser is assigned as the circulation nurse.",
+      "The floor nurse coordinating the operating room is Maya Haddad."
+    ]
+  },
+  {
+    "field": "relief_circulating_nurse",
+    "description": "The nurse who replaces or relieves the original circulating nurse during the procedure.",
+    "examples": [
+      "The relief circulating nurse is Nour Haddad.",
+      "Leila Saleh replaced the circulating nurse.",
+      "The replacement circulation nurse is Maya Khalil."
+    ]
+  },
+  {
+    "field": "preoperative_diagnosis",
+    "description": "The clinical diagnosis established before the surgical procedure begins.",
+    "examples": [
+      "The preoperative diagnosis is acute appendicitis.",
+      "The diagnosis before surgery was an inguinal hernia.",
+      "The pre-op diagnosis is gallbladder inflammation."
+    ]
+  },
+  {
+    "field": "postoperative_diagnosis",
+    "description": "The clinical diagnosis documented after the surgical procedure is completed.",
+    "examples": [
+      "The postoperative diagnosis is acute appendicitis.",
+      "The diagnosis after surgery confirmed an inguinal hernia.",
+      "The post-op diagnosis is gallbladder inflammation."
+    ]
+  },
+  {
+    "field": "operation_code",
+    "description": "The clinical or administrative code assigned to the surgical operation.",
+    "examples": [
+      "The operation code is 59575.",
+      "Record the procedure code as OR-452.",
+      "The surgical code for this operation is 7312."
+    ]
+  },
+  {
+    "field": "procedure_name",
+    "description": "The official name of the surgical procedure being performed.",
+    "examples": [
+      "The procedure is a laparoscopic appendectomy.",
+      "The operation performed was a cesarean section.",
+      "The surgical procedure is an inguinal hernia repair."
+    ]
+  },
+
+
+
+
+  {
+    "field": "patient_position",
+    "description": "Clinical information documenting the patient position for the surgical case.",
+    "examples": [
+      "The patient position was documented.",
+      "Record the positioned supine.",
+      "Clinical staff reported positioned prone."
+    ]
+  },
+  {
+    "field": "other_position",
+    "description": "Clinical information documenting the other position for the surgical case.",
+    "examples": [
+      "The other position was documented.",
+      "Record the alternative position.",
+      "Clinical staff reported patient positioned differently."
+    ]
+  },
+  {
+    "field": "irrigation_used",
+    "description": "Clinical information documenting the irrigation used for the surgical case.",
+    "examples": [
+      "The irrigation used was documented.",
+      "Record the irrigation performed.",
+      "Clinical staff reported irrigation was not used."
+    ]
+  },
+  {
+    "field": "irrigation_solution",
+    "description": "Clinical information documenting the irrigation solution for the surgical case.",
+    "examples": [
+      "The irrigation type was documented.",
+      "Record the irrigation solution.",
+      "Clinical staff reported irrigated with."
+    ]
+  },
+  {
+    "field": "drain_inserted",
+    "description": "Clinical information documenting the drain inserted for the surgical case.",
+    "examples": [
+      "The drain inserted was documented.",
+      "Record the drain used.",
+      "Clinical staff reported tube inserted."
+    ]
+  },
+  {
+    "field": "drain_details",
+    "description": "Clinical information documenting the drain details for the surgical case.",
+    "examples": [
+      "The drain type was documented.",
+      "Record the foley catheter.",
+      "Clinical staff reported hemovac."
+    ]
+  },
+  {
+    "field": "specimen_collected",
+    "description": "Clinical information documenting the specimen collected for the surgical case.",
+    "examples": [
+      "The specimen collected was documented.",
+      "Record the sample collected.",
+      "Clinical staff reported no specimen collected."
+    ]
+  },
+  {
+    "field": "specimen_details",
+    "description": "Clinical information documenting the specimen details for the surgical case.",
+    "examples": [
+      "The specimen description was documented.",
+      "Record the sample description.",
+      "Clinical staff reported specimen obtained."
+    ]
+  },
+  {
+    "field": "laboratory_requests",
+    "description": "Clinical information documenting the laboratory requests for the surgical case.",
+    "examples": [
+      "The pathology requested was documented.",
+      "Record the culture requested.",
+      "Clinical staff reported cytology requested."
+    ]
+  },
+  {
+    "field": "specimen_sent_to_external_lab",
+    "description": "Clinical information documenting the specimen sent to external lab for the surgical case.",
+    "examples": [
+      "The sent to external lab was documented.",
+      "Record the pathology sent out.",
+      "Clinical staff reported sent to outside laboratory."
+    ]
+  },
+  {
+    "field": "external_lab_name",
+    "description": "Clinical information documenting the external lab name for the surgical case.",
+    "examples": [
+      "The external lab name was documented.",
+      "Record the outside laboratory name.",
+      "Clinical staff reported name of lab."
+    ]
+  },
+  {
+    "field": "specimen_other_notes",
+    "description": "Clinical information documenting the specimen other notes for the surgical case.",
+    "examples": [
+      "The other specimen notes was documented.",
+      "Record the additional laboratory notes.",
+      "Clinical staff reported other pathology notes."
+    ]
+  },
+  {
+    "field": "antibiotic_prophylaxis_given",
+    "description": "Clinical information documenting the antibiotic prophylaxis given for the surgical case.",
+    "examples": [
+      "The prophylactic antibiotic given was documented.",
+      "Record the antibiotic prophylaxis.",
+      "Clinical staff reported antibiotic administered before incision."
+    ]
+  },
+  {
+    "field": "medication_details",
+    "description": "Clinical information documenting the medication details for the surgical case.",
+    "examples": [
+      "The medication administered was documented.",
+      "Record the drug name.",
+      "Clinical staff reported drug dose."
+    ]
+  },
+  {
+    "field": "implant_used",
+    "description": "Clinical information documenting the implant used for the surgical case.",
+    "examples": [
+      "The implant used was documented.",
+      "Record the implant inserted.",
+      "Clinical staff reported implantable device."
+    ]
+  },
+  {
+    "field": "implant_details",
+    "description": "Clinical information documenting the implant details for the surgical case.",
+    "examples": [
+      "The implant details was documented.",
+      "Record the implant type.",
+      "Clinical staff reported implant registry number."
+    ]
+  },
+  {
+    "field": "total_fluids_ml",
+    "description": "Clinical information documenting the total fluids ml for the surgical case.",
+    "examples": [
+      "The total fluids was documented.",
+      "Record the total fluid amount.",
+      "Clinical staff reported fluids administered."
+    ]
+  },
+  {
+    "field": "blood_transfusion",
+    "description": "Clinical information documenting the blood transfusion for the surgical case.",
+    "examples": [
+      "The blood transfusion was documented.",
+      "Record the blood transfused.",
+      "Clinical staff reported transfusion given."
+    ]
+  },
+  {
+    "field": "blood_transfused_ml",
+    "description": "Clinical information documenting the blood transfused ml for the surgical case.",
+    "examples": [
+      "The amount of blood transfused was documented.",
+      "Record the transfusion amount.",
+      "Clinical staff reported blood transfused volume."
+    ]
+  },
+  {
+    "field": "initial_count_waived",
+    "description": "Clinical information documenting the initial count waived for the surgical case.",
+    "examples": [
+      "The initial count waived was documented.",
+      "Record the count waived.",
+      "Clinical staff reported life saving operation count waived."
+    ]
+  },
+  {
+    "field": "retained_sponge_case",
+    "description": "Clinical information documenting the retained sponge case for the surgical case.",
+    "examples": [
+      "The retained sponge case was documented.",
+      "Record the patient arrived with retained sponge.",
+      "Clinical staff reported retained sponge present."
+    ]
+  },
+  {
+    "field": "count_stage_details",
+    "description": "Clinical information documenting the count stage details for the surgical case.",
+    "examples": [
+      "The first count was documented.",
+      "Record the second count.",
+      "Clinical staff reported final count."
+    ]
+  },
+  {
+    "field": "counts_correct",
+    "description": "Clinical information documenting the counts correct for the surgical case.",
+    "examples": [
+      "The final count correct was documented.",
+      "Record the counts were correct.",
+      "Clinical staff reported instrument sponge and needle counts correct."
+    ]
+  },
+  {
+    "field": "count_discrepancy",
+    "description": "Clinical information documenting the count discrepancy for the surgical case.",
+    "examples": [
+      "The count discrepancy was documented.",
+      "Record the count mismatch.",
+      "Clinical staff reported incorrect count."
+    ]
+  },
+  {
+    "field": "count_actions",
+    "description": "Clinical information documenting the count actions for the surgical case.",
+    "examples": [
+      "The head nurse informed was documented.",
+      "Record the x-ray taken.",
+      "Clinical staff reported incident report completed."
+    ]
+  },
+  {
+    "field": "instrument_sets",
+    "description": "Clinical information documenting the instrument sets for the surgical case.",
+    "examples": [
+      "The instrument set was documented.",
+      "Record the instrument sets.",
+      "Clinical staff reported extra instrument set."
+    ]
+  },
+  {
+    "field": "tourniquet_used",
+    "description": "Clinical information documenting the tourniquet used for the surgical case.",
+    "examples": [
+      "The tourniquet used was documented.",
+      "Record the tourniquet applied.",
+      "Clinical staff reported no tourniquet used."
+    ]
+  },
+  {
+    "field": "tourniquet_pressure_mmhg",
+    "description": "Clinical information documenting the tourniquet pressure mmhg for the surgical case.",
+    "examples": [
+      "The tourniquet pressure was documented.",
+      "Record the pressure in millimeters of mercury.",
+      "Clinical staff reported tourniquet pressure reading."
+    ]
+  },
+  {
+    "field": "tourniquet_duration_minutes",
+    "description": "Clinical information documenting the tourniquet duration minutes for the surgical case.",
+    "examples": [
+      "The tourniquet duration was documented.",
+      "Record the tourniquet time.",
+      "Clinical staff reported duration in minutes."
+    ]
+  },
+  {
+    "field": "tourniquet_serial_number",
+    "description": "Clinical information documenting the tourniquet serial number for the surgical case.",
+    "examples": [
+      "The tourniquet serial number was documented.",
+      "Record the tourniquet device number.",
+      "Clinical staff reported tourniquet serial number."
+    ]
+  },
+  {
+    "field": "esu_used",
+    "description": "Clinical information documenting the esu used for the surgical case.",
+    "examples": [
+      "The esu used was documented.",
+      "Record the electrosurgical unit used.",
+      "Clinical staff reported cautery unit used."
+    ]
+  },
+  {
+    "field": "esu_serial_number",
+    "description": "Clinical information documenting the esu serial number for the surgical case.",
+    "examples": [
+      "The esu serial number was documented.",
+      "Record the electrosurgical unit serial number.",
+      "Clinical staff reported cautery serial number."
+    ]
+  },
+  {
+    "field": "wound_classification",
+    "description": "Clinical information documenting the wound classification for the surgical case.",
+    "examples": [
+      "The wound classification was documented.",
+      "Record the clean wound.",
+      "Clinical staff reported clean contaminated wound."
+    ]
+  },
+  {
+    "field": "complications",
+    "description": "Clinical information documenting the complications for the surgical case.",
+    "examples": [
+      "The complication was documented.",
+      "Record the complications occurred.",
+      "Clinical staff reported no complications."
+    ]
+  },
+  {
+    "field": "transfer_destination",
+    "description": "Clinical information documenting the transfer destination for the surgical case.",
+    "examples": [
+      "The patient transferred to was documented.",
+      "Record the patient sent to.",
+      "Clinical staff reported destination after surgery."
+    ]
+  },
+  {
+    "field": "other_destination",
+    "description": "Clinical information documenting the other destination for the surgical case.",
+    "examples": [
+      "The other destination was documented.",
+      "Record the transferred elsewhere.",
+      "Clinical staff reported alternative destination."
+    ]
+  },
+  {
+    "field": "patient_status",
+    "description": "Clinical information documenting the patient status for the surgical case.",
+    "examples": [
+      "The patient condition was documented.",
+      "Record the patient status.",
+      "Clinical staff reported stable condition."
+    ]
+  },
+  {
+    "field": "outcome_intubated",
+    "description": "Clinical information documenting the outcome intubated for the surgical case.",
+    "examples": [
+      "The patient remained intubated was documented.",
+      "Record the patient was intubated at transfer.",
+      "Clinical staff reported transferred intubated."
+    ]
+  },
+  {
+    "field": "outcome_extubated",
+    "description": "Clinical information documenting the outcome extubated for the surgical case.",
+    "examples": [
+      "The patient was extubated was documented.",
+      "Record the extubated before transfer.",
+      "Clinical staff reported transferred extubated."
+    ]
+  }
+]
